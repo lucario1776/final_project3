@@ -1,0 +1,17 @@
+{
+	"name": "FileServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "D:\\ProjectGladiator\\Project 1",
+			"userId": "Bhosale",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzNDdhZTIyMS01OGM4LTQ0NDUtYTZlYi00NTRlMmMxNmYyZDciLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "sumitIR2",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
